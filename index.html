@@ -95,6 +95,12 @@
         <!-- Reset CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/styles.css" />
+
+        <!-- Animation -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <!-- header -->
@@ -141,7 +147,7 @@
                 <section class="hero">
                     <!-- Hero content -->
                     <section class="hero__content">
-                        <h1 class="hero__heading">
+                        <h1 class="hero__heading" data-aos="fade-right">
                             Exceptional dental care for all ages.
                         </h1>
                         <p class="hero__desc">
@@ -808,5 +814,9 @@
                 </div>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
